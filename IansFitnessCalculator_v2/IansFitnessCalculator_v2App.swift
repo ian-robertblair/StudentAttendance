@@ -6,12 +6,23 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct IansFitnessCalculator_v2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppTabView()
+                .modelContainer(DataController.previewContainer)
         }
     }
 }
+
+/*
+ 
+ Tasks:
+    - Find a new blue color
+    - Add a slider to shift calories (save setting in user defaults
+ 
+ 
+ */

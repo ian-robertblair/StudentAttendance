@@ -7,19 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		623E46432BEC7A52005C1E94 /* BodyFatBMRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E46422BEC7A52005C1E94 /* BodyFatBMRView.swift */; };
+		623E46452BEDCE29005C1E94 /* RecordDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E46442BEDCE29005C1E94 /* RecordDataView.swift */; };
+		6287E0742BE8C32200E7EE82 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6287E0732BE8C32200E7EE82 /* DataController.swift */; };
+		6287E0772BE8C3F400E7EE82 /* FitnessRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6287E0762BE8C3F400E7EE82 /* FitnessRecord.swift */; };
 		62E322F92BDDB7C6002065D9 /* IansFitnessCalculator_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E322F82BDDB7C6002065D9 /* IansFitnessCalculator_v2App.swift */; };
 		62E322FB2BDDB7C6002065D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E322FA2BDDB7C6002065D9 /* ContentView.swift */; };
 		62E322FD2BDDB7CA002065D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E322FC2BDDB7CA002065D9 /* Assets.xcassets */; };
 		62E323012BDDB7CA002065D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E323002BDDB7CA002065D9 /* Preview Assets.xcassets */; };
+		62E3230C2BDDB8A9002065D9 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E3230B2BDDB8A9002065D9 /* CalculatorView.swift */; };
+		62E3230E2BDDB8BD002065D9 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E3230D2BDDB8BD002065D9 /* ChartView.swift */; };
+		62E323102BDDB8CF002065D9 /* PictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E3230F2BDDB8CF002065D9 /* PictureView.swift */; };
+		62E323142BDDBAB2002065D9 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E323132BDDBAB2002065D9 /* AppTabView.swift */; };
+		62E323162BDDBBAF002065D9 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E323152BDDBBAF002065D9 /* CalculatorViewModel.swift */; };
+		62E323182BDDCF46002065D9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E323172BDDCF46002065D9 /* HeaderView.swift */; };
+		62E323202BDF81AF002065D9 /* IansFitnessCalculator_v2UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E3231F2BDF81AF002065D9 /* IansFitnessCalculator_v2UnitTests.swift */; };
+		62E323262BE0D3EA002065D9 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E323152BDDBBAF002065D9 /* CalculatorViewModel.swift */; };
+		62E323292BE0E029002065D9 /* CalculatorTextFieldViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E323282BE0E029002065D9 /* CalculatorTextFieldViewModifier.swift */; };
+		62E3232C2BE20A69002065D9 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E3232B2BE20A69002065D9 /* Int+Extension.swift */; };
+		62E3232E2BE5A05B002065D9 /* BMRHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E3232D2BE5A05B002065D9 /* BMRHeaderView.swift */; };
+		62E323302BE71702002065D9 /* PictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E3232F2BE71702002065D9 /* PictureViewModel.swift */; };
+		62E323322BE71CF9002065D9 /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E323312BE71CF9002065D9 /* AddEntryView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		62E323212BDF81AF002065D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E322ED2BDDB7C6002065D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E322F42BDDB7C6002065D9;
+			remoteInfo = IansFitnessCalculator_v2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		623E46422BEC7A52005C1E94 /* BodyFatBMRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyFatBMRView.swift; sourceTree = "<group>"; };
+		623E46442BEDCE29005C1E94 /* RecordDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDataView.swift; sourceTree = "<group>"; };
+		6287E0732BE8C32200E7EE82 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		6287E0762BE8C3F400E7EE82 /* FitnessRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessRecord.swift; sourceTree = "<group>"; };
 		62E322F52BDDB7C6002065D9 /* IansFitnessCalculator_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IansFitnessCalculator_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E322F82BDDB7C6002065D9 /* IansFitnessCalculator_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IansFitnessCalculator_v2App.swift; sourceTree = "<group>"; };
 		62E322FA2BDDB7C6002065D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62E322FC2BDDB7CA002065D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62E322FE2BDDB7CA002065D9 /* IansFitnessCalculator_v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IansFitnessCalculator_v2.entitlements; sourceTree = "<group>"; };
 		62E323002BDDB7CA002065D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62E3230B2BDDB8A9002065D9 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		62E3230D2BDDB8BD002065D9 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		62E3230F2BDDB8CF002065D9 /* PictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureView.swift; sourceTree = "<group>"; };
+		62E323132BDDBAB2002065D9 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		62E323152BDDBBAF002065D9 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		62E323172BDDCF46002065D9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		62E3231D2BDF81AE002065D9 /* IansFitnessCalculator_v2UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IansFitnessCalculator_v2UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E3231F2BDF81AF002065D9 /* IansFitnessCalculator_v2UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IansFitnessCalculator_v2UnitTests.swift; sourceTree = "<group>"; };
+		62E323282BE0E029002065D9 /* CalculatorTextFieldViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTextFieldViewModifier.swift; sourceTree = "<group>"; };
+		62E3232B2BE20A69002065D9 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		62E3232D2BE5A05B002065D9 /* BMRHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMRHeaderView.swift; sourceTree = "<group>"; };
+		62E3232F2BE71702002065D9 /* PictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewModel.swift; sourceTree = "<group>"; };
+		62E323312BE71CF9002065D9 /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,13 +74,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62E3231A2BDF81AE002065D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6287E0752BE8C3B400E7EE82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6287E0762BE8C3F400E7EE82 /* FitnessRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		62E322EC2BDDB7C6002065D9 = {
 			isa = PBXGroup;
 			children = (
 				62E322F72BDDB7C6002065D9 /* IansFitnessCalculator_v2 */,
+				62E3231E2BDF81AF002065D9 /* IansFitnessCalculator_v2UnitTests */,
 				62E322F62BDDB7C6002065D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				62E322F52BDDB7C6002065D9 /* IansFitnessCalculator_v2.app */,
+				62E3231D2BDF81AE002065D9 /* IansFitnessCalculator_v2UnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +113,13 @@
 		62E322F72BDDB7C6002065D9 /* IansFitnessCalculator_v2 */ = {
 			isa = PBXGroup;
 			children = (
+				6287E0752BE8C3B400E7EE82 /* Model */,
+				62E3232A2BE20A56002065D9 /* Extensions */,
+				62E323272BE0DFFF002065D9 /* Modifiers */,
+				62E3230A2BDDB818002065D9 /* Data */,
+				62E323092BDDB804002065D9 /* ViewModel */,
+				62E323082BDDB7F6002065D9 /* View */,
+				62E323072BDDB7E8002065D9 /* Screen */,
 				62E322F82BDDB7C6002065D9 /* IansFitnessCalculator_v2App.swift */,
 				62E322FA2BDDB7C6002065D9 /* ContentView.swift */,
 				62E322FC2BDDB7CA002065D9 /* Assets.xcassets */,
@@ -67,6 +135,70 @@
 				62E323002BDDB7CA002065D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62E323072BDDB7E8002065D9 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				62E3230B2BDDB8A9002065D9 /* CalculatorView.swift */,
+				62E3230D2BDDB8BD002065D9 /* ChartView.swift */,
+				62E3230F2BDDB8CF002065D9 /* PictureView.swift */,
+				62E323132BDDBAB2002065D9 /* AppTabView.swift */,
+				62E323312BE71CF9002065D9 /* AddEntryView.swift */,
+				623E46442BEDCE29005C1E94 /* RecordDataView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		62E323082BDDB7F6002065D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62E323172BDDCF46002065D9 /* HeaderView.swift */,
+				62E3232D2BE5A05B002065D9 /* BMRHeaderView.swift */,
+				623E46422BEC7A52005C1E94 /* BodyFatBMRView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62E323092BDDB804002065D9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				62E323152BDDBBAF002065D9 /* CalculatorViewModel.swift */,
+				62E3232F2BE71702002065D9 /* PictureViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		62E3230A2BDDB818002065D9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6287E0732BE8C32200E7EE82 /* DataController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		62E3231E2BDF81AF002065D9 /* IansFitnessCalculator_v2UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				62E3231F2BDF81AF002065D9 /* IansFitnessCalculator_v2UnitTests.swift */,
+			);
+			path = IansFitnessCalculator_v2UnitTests;
+			sourceTree = "<group>";
+		};
+		62E323272BE0DFFF002065D9 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				62E323282BE0E029002065D9 /* CalculatorTextFieldViewModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		62E3232A2BE20A56002065D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				62E3232B2BE20A69002065D9 /* Int+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +221,24 @@
 			productReference = 62E322F52BDDB7C6002065D9 /* IansFitnessCalculator_v2.app */;
 			productType = "com.apple.product-type.application";
 		};
+		62E3231C2BDF81AE002065D9 /* IansFitnessCalculator_v2UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E323232BDF81AF002065D9 /* Build configuration list for PBXNativeTarget "IansFitnessCalculator_v2UnitTests" */;
+			buildPhases = (
+				62E323192BDF81AE002065D9 /* Sources */,
+				62E3231A2BDF81AE002065D9 /* Frameworks */,
+				62E3231B2BDF81AE002065D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E323222BDF81AF002065D9 /* PBXTargetDependency */,
+			);
+			name = IansFitnessCalculator_v2UnitTests;
+			productName = IansFitnessCalculator_v2UnitTests;
+			productReference = 62E3231D2BDF81AE002065D9 /* IansFitnessCalculator_v2UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +251,10 @@
 				TargetAttributes = {
 					62E322F42BDDB7C6002065D9 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					62E3231C2BDF81AE002065D9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 62E322F42BDDB7C6002065D9;
 					};
 				};
 			};
@@ -118,6 +272,7 @@
 			projectRoot = "";
 			targets = (
 				62E322F42BDDB7C6002065D9 /* IansFitnessCalculator_v2 */,
+				62E3231C2BDF81AE002065D9 /* IansFitnessCalculator_v2UnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +287,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62E3231B2BDF81AE002065D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,12 +301,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623E46452BEDCE29005C1E94 /* RecordDataView.swift in Sources */,
+				62E323162BDDBBAF002065D9 /* CalculatorViewModel.swift in Sources */,
+				62E323142BDDBAB2002065D9 /* AppTabView.swift in Sources */,
+				62E323102BDDB8CF002065D9 /* PictureView.swift in Sources */,
 				62E322FB2BDDB7C6002065D9 /* ContentView.swift in Sources */,
+				623E46432BEC7A52005C1E94 /* BodyFatBMRView.swift in Sources */,
+				62E3232E2BE5A05B002065D9 /* BMRHeaderView.swift in Sources */,
+				62E323302BE71702002065D9 /* PictureViewModel.swift in Sources */,
+				62E323292BE0E029002065D9 /* CalculatorTextFieldViewModifier.swift in Sources */,
+				6287E0742BE8C32200E7EE82 /* DataController.swift in Sources */,
+				62E3232C2BE20A69002065D9 /* Int+Extension.swift in Sources */,
+				6287E0772BE8C3F400E7EE82 /* FitnessRecord.swift in Sources */,
+				62E3230C2BDDB8A9002065D9 /* CalculatorView.swift in Sources */,
 				62E322F92BDDB7C6002065D9 /* IansFitnessCalculator_v2App.swift in Sources */,
+				62E3230E2BDDB8BD002065D9 /* ChartView.swift in Sources */,
+				62E323182BDDCF46002065D9 /* HeaderView.swift in Sources */,
+				62E323322BE71CF9002065D9 /* AddEntryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E323192BDF81AE002065D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E323262BE0D3EA002065D9 /* CalculatorViewModel.swift in Sources */,
+				62E323202BDF81AF002065D9 /* IansFitnessCalculator_v2UnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62E323222BDF81AF002065D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E322F42BDDB7C6002065D9 /* IansFitnessCalculator_v2 */;
+			targetProxy = 62E323212BDF81AF002065D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		62E323022BDDB7CA002065D9 /* Debug */ = {
@@ -337,6 +531,47 @@
 			};
 			name = Release;
 		};
+		62E323242BDF81AF002065D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KHAQRXX59T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-dev.IansFitnessCalculator-v2UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IansFitnessCalculator_v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IansFitnessCalculator_v2";
+			};
+			name = Debug;
+		};
+		62E323252BDF81AF002065D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KHAQRXX59T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS-dev.IansFitnessCalculator-v2UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IansFitnessCalculator_v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IansFitnessCalculator_v2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,6 +589,15 @@
 			buildConfigurations = (
 				62E323052BDDB7CA002065D9 /* Debug */,
 				62E323062BDDB7CA002065D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E323232BDF81AF002065D9 /* Build configuration list for PBXNativeTarget "IansFitnessCalculator_v2UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E323242BDF81AF002065D9 /* Debug */,
+				62E323252BDF81AF002065D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
